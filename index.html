@@ -6,11 +6,297 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Pages</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Next to Image</title>
+    <style>
+        /* Style for the image */
+        .image {
+            float: left; /* Float the image to the left */
+            margin-right: 40px; /* Add some spacing between the image and text */
+        }
+
+        /* Clear float to prevent text from wrapping around */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    <style>
+        /* Style for the image */
+        .image_profile {
+            float: left; /* Float the image to the left */
+            margin-right: 40px; /* Add some spacing between the image and text */
+            width: 30;
+        }
+
+        /* Clear float to prevent text from wrapping around */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            }
+
+            .button1 {
+            background-color: rgb(63, 63, 63); 
+            color: black; 
+            border: 2px solid #424242;
+            }
+
+            .button1:hover {
+            background-color: #000000;
+            color: white;
+            }
+
+            .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+            }
+
+            .button2:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>My name is Yaqub :)</p>
-    <img src="assets/images/MindMap.jpg" alt="Profile pic">
-	<a href="https://www.example.com">Visit Example.com</a>
+    <h1>Yaqub Jonmohamadi</h1>
+    <!-- <h2>Summary</h2> -->
+    <h2 style="color:rgb(0, 32, 180)">Summary</h2>
+   
+   
+    <hr size="2" color="red">
+   
+    
+    <!-- <div class="clearfix"> -->
+        <img src="assets/images/profile.jpeg" width="220" alt="An example image" class="image_profile">
+        <p>I am a research/R&D engineer with passion for computer vision, machine learning, functional neuroimaging, 
+            and medical signal and imaging analysis.
+            <br>
+            An active learner with a hybrid commercial-academic background. 
+            On the academic side, I have a bachelor's degree in electronics, a master degree in signal processing, 
+            and a PhD in neuroimaging. 
+            I have held two post doctorcal positions at the University of Auckland (2015-2017) in multimodal neuroimaging, 
+            and Queendland University of Technology (2018-2021) in medical image analaysis. 
+            I have more than 25 pear reviewed publications with 13 as the first author. 
+            On the industry side, I gained commercial experiences at Broadcast Virtual and mPort Ltd as the 
+            R&D research engineer with focus on 3D computer vision and machine learning. </p>
+        <h3>Contact</h2>
+            <p> <strong>Email:</strong> y.jonmo@gmail.com,  
+                <a href="https://www.linkedin.com/in/yaqub-jonmohamadi-2845a095/">LinkedIn</a>, 
+                <a href="https://github.com/YJonmo">GitHub</a>, 
+                <a href="https://scholar.google.com/citations?user=REXdaqgAAAAJ&hl=en&authuser=1">
+                    Google Scholar</a>,
+                
+            <strong>Location:</strong> Sydney, Australia<br>
+            </p>
+    <!-- </div> -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> <br>
+    <h2 style="color:rgb(0, 32, 180)">Sample work</h2>
+
+
+    <hr size="2" color="red">
+
+
+    <h3 style="color:rgb(1, 122, 76)">Broadcast Virtual</h3>
+    <img src="assets/images/BV.png" 
+    width="980"
+    height="180"/>
+    <!-- <img src="./assets/images/BV.png" alt="shafeeq" width="{&lt;article&gt;">&nbsp;</td> -->
+    <p> At Broadcast Virtual, we perform various forms of virtual advertisements. 
+        In the above example, using semantic segmentation the physical LEDs are removed from the footage. 
+        Then using camera tracking, the virtual advertisements are superimposed on the footage.</p>
+    <div style="margin-bottom: 20px;"></div>
+  
+  
+    <hr>
+
+
+    <div class="clearfix">
+        <h3 style="color:rgb(1, 122, 76)">mPort Ltd</h3>
+        <img src="assets/images/mPort.jpeg" width="580" height="380">
+            <p> At mPort Ltd the 3D body scannibg app provides body avatars + anatomical measurements 
+                for people using the iPhones.  </p>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h2 style="color:rgb(0, 32, 180)">Sample publications</h2>
+    <hr size="2" color="red">
+
+    <h3 style="color:rgb(80, 80, 80)"> <strong>3D semantic mapping from arthroscopy using out-of-distribution 
+    pose and depth and in-distribution segmentation training </strong></h3>
+    <h4 style="color:rgb(0, 0, 180)"> Yaqub Jonmohamadi, Shahnewaz Ali, Fengbei Liu, Jonathan Roberts, 
+    Ross Crawford, Gustavo Carneiro, Ajay K Pandey </h4>
+    
+    <h4 style="color:rgb(256, 0, 0)">  MICCAI 2021 </h4>
+
+    <button class="button button1"> <a href="https://github.com/YJonmo/EndoMapNet">Source Code</a> </button>
+    <button class="button button1"> <a href="https://arxiv.org/pdf/2106.05525">Paper Link</a> </button>
+    <button class="button button1"> 
+        <a href="https://drive.google.com/file/d/1bwvJXzFETtwBIlgR--HSzOnrBqCpdVnF/view
+        ">Data Link </a> </button>
+
+    
+     
+    <h3 style="color:rgb(0, 0, 0)"> <strong> Abstract </strong> </h3>
+    <p>
+    Minimally invasive surgery (MIS) has many documented advantages, but the surgeon’s 
+    limited visual contact with the scene can be problematic. Hence, systems that can 
+    help surgeons navigate, such as a method that can produce a 3D semantic map, can 
+    compensate for the limitation above. In theory, we can borrow 3D semantic mapping 
+    techniques developed for robotics, but this requires finding solutions to the 
+    following challenges in MIS: 1) semantic segmentation, 2) depth estimation, and 3) 
+    pose estimation. In this paper, we propose the first 3D semantic mapping system from 
+    knee arthroscopy that solves the three challenges above. Using out-of-distribution 
+    non-human datasets, where pose could be labeled, we jointly train depth+pose estimators
+     using self-supervised and supervised losses. Using an in-distribution human knee dataset, 
+     we train a fully-supervised semantic segmentation system to label arthroscopic image 
+     pixels into femur, ACL, and meniscus. Taking testing images from human knees, we 
+     combine the results from these two systems to automatically create 3D semantic maps 
+     of the human knee. The result of this work opens the pathway to the generation of 
+     intra-operative 3D semantic mapping, registration with pre-operative data, and 
+     robotic-assisted arthroscopy. Source code: https://github.com/YJonmo/EndoMapNet.
+    </p>
+
+    <h3 style="color:rgb(0, 0, 0)"> <strong> Pipeline Overview </strong> </h3>
+    1- semantic segmentation of the scene using augmented multi-spectral input, <br>
+    2- simultaneous depth and pose estimation in arthroscopy (self supervised + supervised pose) <br>
+    3- creating the 3D semantics of the arthroscopic scenes.<br>  <br>
+    <img src="assets/images/Miccai.png" 
+    width="950"
+    />
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 style="color:rgb(0, 0, 0)"> <strong> Demo on partial knee mapping</strong> </h3>
+
+    <p>
+    
+    <video height="245" controls>
+        <source src="assets/videos/Frame00092-00172.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video> 
+       
+      <video height="245"  controls>
+        <source src="assets/videos/Frame00092-00172_Semantic.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video> 
+      <br>
+      <br>
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+      Sample image sequence &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+      Reconstructed 3D semantic map
+    </p>
+   
+
+
+
+
+
+    <hr>
+    <br>
+    <br>
+
+    
+
+
+
+
+    <h3 style="color:rgb(80, 80, 80)"> <strong>Extraction of common task features in EEG-fMRI data using
+        coupled tensor-tensor decomposition </strong></h3>
+        <h4 style="color:rgb(0, 0, 180)"> Yaqub Jonmohamadi, Suresh Muthukumaraswamy, Joseph Chen,
+            Jonathan Roberts, Ross Crawford, Ajay Pandey </h4>
+        
+        <h4 style="color:rgb(256, 0, 0)">  Brain Topography 2020 </h4>
+    
+        <button class="button button1"> <a 
+            href="https://www.biorxiv.org/content/biorxiv/early/2019/07/02/685941.full.pdf">Paper Link</a> </button>
+        </button>
+    
+        
+        
+        <h3 style="color:rgb(0, 0, 0)"> <strong> Abstract </strong> </h3>
+        <p> 
+        The fusion of simultaneously recorded EEG and fMRI data is of great value to neuroscience 
+        research due to the complementary properties of the individual modalities. Traditionally, 
+        techniques such as PCA and ICA, which rely on strong strong nonphysiological assumptions 
+        such as orthogonality and statistical independence, have been used for this purpose. Recently, 
+        tensor decomposition techniques such as parallel factor analysis have gained more popularity in 
+        neuroimaging applications as they areable to inherently contain the multidimensionality of 
+        neuroimaging data and achieve uniqueness in decomposition without imposing strong assumptions. 
+        Previously, the coupled matrix-tensor decomposition (CMTD) has been applied for the fusion of the 
+        EEG and fMRI. Only recently the coupled tensor-tensor decomposition (CTTD) has been proposed. 
+        Here for the first time, we propose the use of CTTD of a 4th order EEG tensor (space, time, 
+        frequency, and participant) and 3rd order fMRI tensor (space, time, participant), coupled 
+        partially in time and participant domains, for the extraction of the task related features in 
+        both modalities. We used both the sensor-level and source-level EEG for the coupling. The phase 
+        shifted paradigm signals were incorporated as the temporal initializers of the CTTD to extract 
+        the task related features. The validation of the approach is demonstrated on simultaneous EEG-fMRI 
+        recordings from six participants performing an N-Back memory task. The EEG and fMRI tensors were 
+        coupled in 9 components out of which 7 components had a high correlation (more than 0.85) with the 
+        task. The result of the fusion recapitulates the well-known attention network as being positively, 
+        and the default mode network working negatively time-locked to the memory task.
+        </p>
+    
+        <h3 style="color:rgb(0, 0, 0)"> <strong> Pipeline Overview </strong> </h3>
+        <p>
+        The following block diagram illustrates the spatial, temporal, and spectral operations required to 
+        create the 4th order EEG and 3rd order fMRI tensors. The EEG and fMRI tensors could be coupled in 
+        temporal and participant domains. The paradigm signal could be used as a temporal constraint for the 
+        coupled tensor-tensor decomposition..<br>  <br>
+        </p>
+        <img src="assets/images/Extraction.png" 
+        width="700"
+        />
+    
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 style="color:rgb(0, 0, 0)"> <strong> Sample extracted common task signals</strong> </h3>
+    
+        <p>
+        <img src="assets/images/Extraction2.png" 
+        width="700"
+        />
+      
+        </p>
+       
+    
+
+
+
+
 </body>
 </html>
