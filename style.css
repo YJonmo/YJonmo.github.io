@@ -1,9 +1,9 @@
 body {
-    /* margin: 10; */
+    margin: 100;
     padding: 10;
     text-align: left;
-    margin-left: 115;
-    margin-right: 225;
+    /* margin-left: 115;
+    margin-right: 225; */
 }
 
 h1 {
